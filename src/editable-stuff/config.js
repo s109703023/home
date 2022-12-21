@@ -66,25 +66,25 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "My cats",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "I have two black cats, one named OLULU, the other named Egg Cake, the former is elder sister and letter is young brother.\n It's my brother's duty to take care of, all i do just messing around with them.",
   images: [
     { 
-      img: require("../editable-stuff/me.jpg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/歐嚕嚕.jpg"), 
+      label: "歐嚕嚕", 
+      paragraph: "瘦瘦的，比較好動，很黏人，長得比較可愛" 
     },
     { 
-      img: require("../editable-stuff/me.jpg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/雞蛋糕.jpg"), 
+      label: "雞蛋糕", 
+      paragraph: "很胖，能趴著絕不站著，呼嚕聲超級大，長的比較帥" 
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width:"300",
+    height:"400"
   }
 };
 
@@ -122,7 +122,7 @@ const getInTouch = {
 
 const experiences = {
   show: false,
-  heading: "Experiences",
+  heading: "More pictures of me",
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
@@ -142,4 +142,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, leadership, repos, skills, getInTouch, experiences };
